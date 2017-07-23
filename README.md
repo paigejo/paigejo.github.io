@@ -1,1 +1,2 @@
-# paigejo.github.io
+# website
+My personal website for GitHub Pages
