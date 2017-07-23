@@ -1,0 +1,66 @@
+HTTrack3.48-22 launched on Sun, 23 Jul 2017 12:29:58 at https://paigejo.wordpress.com/
+(winhttrack https://paigejo.wordpress.com/ -W -O "/Users/johnpaige/websites/jpstats" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:30:00	Error: 	"Method Not Allowed" (405) at link https://paigejo.wordpress.com/xmlrpc.php (from https://paigejo.wordpress.com/)
+12:32:22	Warning: 	Found for https://paigejo.wordpress.com/2015/10/01/bio/?share=twitter
+12:32:22	Warning: 	File has moved from https://paigejo.wordpress.com/2015/10/01/bio/?share=twitter to https://twitter.com/intent/tweet?via=wordpressdotcom&text=Bio&url=https%3A%2F%2Fpaigejo.wordpress.com%2F2015%2F10%2F01%2Fbio%2F
+12:32:22	Warning: 	Found for https://paigejo.wordpress.com/2015/10/01/bio/?share=facebook
+12:32:22	Warning: 	File has moved from https://paigejo.wordpress.com/2015/10/01/bio/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fpaigejo.wordpress.com%2F2015%2F10%2F01%2Fbio%2F&t=Bio
+12:32:22	Warning: 	Found for https://paigejo.wordpress.com/2015/10/01/bio/?share=google-plus-1
+12:32:22	Warning: 	File has moved from https://paigejo.wordpress.com/2015/10/01/bio/?share=google-plus-1 to https://plus.google.com/share?url=https%3A%2F%2Fpaigejo.wordpress.com%2F2015%2F10%2F01%2Fbio%2F
+12:33:22	Warning: 	Found for https://paigejo.wordpress.com/2015/10/01/publications/?share=twitter
+12:33:22	Warning: 	File has moved from https://paigejo.wordpress.com/2015/10/01/publications/?share=twitter to https://twitter.com/intent/tweet?via=wordpressdotcom&text=Publications&url=https%3A%2F%2Fpaigejo.wordpress.com%2F2015%2F10%2F01%2Fpublications%2F
+12:33:22	Warning: 	Found for https://paigejo.wordpress.com/2015/10/01/publications/?share=facebook
+12:33:22	Warning: 	File has moved from https://paigejo.wordpress.com/2015/10/01/publications/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fpaigejo.wordpress.com%2F2015%2F10%2F01%2Fpublications%2F&t=Publications
+12:33:23	Warning: 	Found for https://paigejo.wordpress.com/2015/10/01/publications/?share=google-plus-1
+12:33:23	Warning: 	File has moved from https://paigejo.wordpress.com/2015/10/01/publications/?share=google-plus-1 to https://plus.google.com/share?url=https%3A%2F%2Fpaigejo.wordpress.com%2F2015%2F10%2F01%2Fpublications%2F
+12:34:19	Warning: 	Found for https://paigejo.wordpress.com/2015/10/01/research-interests/?share=twitter
+12:34:19	Warning: 	File has moved from https://paigejo.wordpress.com/2015/10/01/research-interests/?share=twitter to https://twitter.com/intent/tweet?via=wordpressdotcom&text=Research%20Interests&url=https%3A%2F%2Fpaigejo.wordpress.com%2F2015%2F10%2F01%2Fresearch-interests%2F
+12:34:22	Warning: 	Found for https://paigejo.wordpress.com/2015/10/01/research-interests/?share=facebook
+12:34:22	Warning: 	File has moved from https://paigejo.wordpress.com/2015/10/01/research-interests/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fpaigejo.wordpress.com%2F2015%2F10%2F01%2Fresearch-interests%2F&t=Research%20Interests
+12:35:12	Warning: 	Found for https://paigejo.wordpress.com/2015/10/01/research-interests/?share=google-plus-1
+12:35:12	Warning: 	File has moved from https://paigejo.wordpress.com/2015/10/01/research-interests/?share=google-plus-1 to https://plus.google.com/share?url=https%3A%2F%2Fpaigejo.wordpress.com%2F2015%2F10%2F01%2Fresearch-interests%2F
+12:35:21	Warning: 	Found for https://paigejo.wordpress.com/2015/10/01/code/?share=twitter
+12:35:21	Warning: 	File has moved from https://paigejo.wordpress.com/2015/10/01/code/?share=twitter to https://twitter.com/intent/tweet?via=wordpressdotcom&text=Code&url=https%3A%2F%2Fpaigejo.wordpress.com%2F2015%2F10%2F01%2Fcode%2F
+12:36:07	Warning: 	Found for https://paigejo.wordpress.com/2015/10/01/code/?share=facebook
+12:36:07	Warning: 	File has moved from https://paigejo.wordpress.com/2015/10/01/code/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fpaigejo.wordpress.com%2F2015%2F10%2F01%2Fcode%2F&t=Code
+12:36:07	Warning: 	Found for https://paigejo.wordpress.com/2015/10/01/code/?share=google-plus-1
+12:36:07	Warning: 	File has moved from https://paigejo.wordpress.com/2015/10/01/code/?share=google-plus-1 to https://plus.google.com/share?url=https%3A%2F%2Fpaigejo.wordpress.com%2F2015%2F10%2F01%2Fcode%2F
+12:36:13	Warning: 	Found for https://paigejo.wordpress.com/bio/?share=twitter
+12:36:13	Warning: 	File has moved from https://paigejo.wordpress.com/bio/?share=twitter to https://twitter.com/intent/tweet?via=wordpressdotcom&text=Bio&url=https%3A%2F%2Fpaigejo.wordpress.com%2Fbio%2F
+12:36:17	Warning: 	Found for https://paigejo.wordpress.com/bio/?share=facebook
+12:36:17	Warning: 	File has moved from https://paigejo.wordpress.com/bio/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fpaigejo.wordpress.com%2Fbio%2F&t=Bio
+12:37:03	Warning: 	Found for https://paigejo.wordpress.com/bio/?share=google-plus-1
+12:37:03	Warning: 	File has moved from https://paigejo.wordpress.com/bio/?share=google-plus-1 to https://plus.google.com/share?url=https%3A%2F%2Fpaigejo.wordpress.com%2Fbio%2F
+12:37:06	Warning: 	Found for https://paigejo.wordpress.com/code/?share=twitter
+12:37:06	Warning: 	File has moved from https://paigejo.wordpress.com/code/?share=twitter to https://twitter.com/intent/tweet?via=wordpressdotcom&text=Code&url=https%3A%2F%2Fpaigejo.wordpress.com%2Fcode%2F
+12:37:09	Warning: 	Found for https://paigejo.wordpress.com/code/?share=facebook
+12:37:09	Warning: 	File has moved from https://paigejo.wordpress.com/code/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fpaigejo.wordpress.com%2Fcode%2F&t=Code
+12:37:12	Warning: 	Found for https://paigejo.wordpress.com/code/?share=google-plus-1
+12:37:12	Warning: 	File has moved from https://paigejo.wordpress.com/code/?share=google-plus-1 to https://plus.google.com/share?url=https%3A%2F%2Fpaigejo.wordpress.com%2Fcode%2F
+12:38:04	Warning: 	Found for https://paigejo.wordpress.com/contact/?share=twitter
+12:38:04	Warning: 	File has moved from https://paigejo.wordpress.com/contact/?share=twitter to https://twitter.com/intent/tweet?via=wordpressdotcom&text=Contact&url=https%3A%2F%2Fpaigejo.wordpress.com%2Fcontact%2F
+12:38:05	Warning: 	Found for https://paigejo.wordpress.com/contact/?share=facebook
+12:38:05	Warning: 	File has moved from https://paigejo.wordpress.com/contact/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fpaigejo.wordpress.com%2Fcontact%2F&t=Contact
+12:38:08	Warning: 	Found for https://paigejo.wordpress.com/contact/?share=google-plus-1
+12:38:08	Warning: 	File has moved from https://paigejo.wordpress.com/contact/?share=google-plus-1 to https://plus.google.com/share?url=https%3A%2F%2Fpaigejo.wordpress.com%2Fcontact%2F
+12:39:02	Warning: 	Found for https://paigejo.wordpress.com/publications/?share=twitter
+12:39:02	Warning: 	File has moved from https://paigejo.wordpress.com/publications/?share=twitter to https://twitter.com/intent/tweet?via=wordpressdotcom&text=Publications&url=https%3A%2F%2Fpaigejo.wordpress.com%2Fpublications%2F
+12:39:02	Warning: 	Found for https://paigejo.wordpress.com/publications/?share=facebook
+12:39:02	Warning: 	File has moved from https://paigejo.wordpress.com/publications/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fpaigejo.wordpress.com%2Fpublications%2F&t=Publications
+12:39:02	Warning: 	Found for https://paigejo.wordpress.com/publications/?share=google-plus-1
+12:39:02	Warning: 	File has moved from https://paigejo.wordpress.com/publications/?share=google-plus-1 to https://plus.google.com/share?url=https%3A%2F%2Fpaigejo.wordpress.com%2Fpublications%2F
+12:39:02	Warning: 	Found for https://paigejo.wordpress.com/research-interests-2/?share=twitter
+12:39:02	Warning: 	File has moved from https://paigejo.wordpress.com/research-interests-2/?share=twitter to https://twitter.com/intent/tweet?via=wordpressdotcom&text=Research%20Interests&url=https%3A%2F%2Fpaigejo.wordpress.com%2Fresearch-interests-2%2F
+12:39:02	Warning: 	Found for https://paigejo.wordpress.com/research-interests-2/?share=facebook
+12:39:02	Warning: 	File has moved from https://paigejo.wordpress.com/research-interests-2/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fpaigejo.wordpress.com%2Fresearch-interests-2%2F&t=Research%20Interests
+12:39:02	Warning: 	Found for https://paigejo.wordpress.com/research-interests-2/?share=google-plus-1
+12:39:02	Warning: 	File has moved from https://paigejo.wordpress.com/research-interests-2/?share=google-plus-1 to https://plus.google.com/share?url=https%3A%2F%2Fpaigejo.wordpress.com%2Fresearch-interests-2%2F
+
+HTTrack Website Copier/3.48-22 mirror complete in 9 minutes 5 seconds : 62 links scanned, 33 files written (1090621 bytes overall) [425336 bytes received at 780 bytes/sec], 1090983 bytes transferred using HTTP compression in 34 files, ratio 35%, 1.5 requests per connection
+(1 errors, 54 warnings, 0 messages)
