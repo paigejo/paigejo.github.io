@@ -1,0 +1,37 @@
+---
+layout: default
+title:  'Software'
+---
+
+
+
+<h1 style="margin-top:0;">Software</h1>
+
+<p class="lead"><small>
+  I believe developing computationally optimized statistical software that is open source, and easy to use and follow without bugs is vital for the development of Statistical methods. All of the code I develop in my research is open source, and most is available at <a href = "https://github.com/paigejo/">my GitHub page</a>. </small>
+</p>
+<br/>
+
+<h4 style="margin-top:0">Extended LatticeKrig (ELK)</h4>
+<p class="content" style="padding:0px;margin:0px 20px 0px;">
+  LatticeKrig is a popular spatial model that can account for multiple scales of spatial correlation in a modeled dataset. In order to apply LatticeKrig to non-Gaussian observations in a Bayesian context, Professors Gier-Arne Fuglstad, Andrea Riebler, Jon Wakefield, and I developed Extended LatticeKrig (ELK), which takes advantage of the INLA R package to avoid the computational expense of Markov Chain Monte Carlo (MCMC) sampling. Source code for ELK is available, with an example illustrating its application to a precipitation dataset on <a href = "https://github.com/paigejo/ELK">GitHub</a>. The model is discussed further in a preprint on arXiV.
+</p>
+<br/>
+
+<h4 style="margin-top:0">Modeling Cascadia subduction zone earthquakes</h4>
+<p class="content" style="padding:0px;margin:0px 20px 0px;">
+  The Cascadia subduction zone (CSZ) lies off of the west coast of the United States, and is capable of magnitude 9 earthquakes. There have been many efforts to collect paleoseismic evidence of how much the coast sunk with each past earthquake going back thousands of years, and this evidence can help us to determine how large past events were. R code is available on <a href = "https://github.com/paigejo/M9">GitHub</a> for modeling past earthquake events using template model builder (TMB) and R.
+</p>
+<br/>
+
+<h4 style="margin-top:0">The `fields' spatial statistics package in R</h4>
+<p class="content" style="padding:0px;margin:0px 20px 0px;">
+  `fields' is an excellent package for classical spatial statistical modeling using Kriging, and was originally developed by Drs. Doug Nychka, Reinhard Furrer, and Steven Sain. During my time working at the National Center for Atmospheric Research (NCAR) I worked on several projects including helping to make its optimization and likelihood calculation methods more computationally efficient and easy to use, and I also helped implement methods for covariogram, variogram, and correlogram computation and plotting. Much of the code in fields is written in C and Fortran in order to optimize some fundamental computational steps in the likelihood evaluation, such as its distance and covariance matrix calculations. The most up-to-date version of the package is available at <a href = "https://github.com/NCAR/fields">NCAR's GitHub</a>, and the package itself is on CRAN.
+</p>
+<br/>
+
+<h4 style="margin-top:0">Classical Kriging with GPUs in `fieldsMAGMA'</h4>
+<p class="content" style="padding:0px;margin:0px 20px 0px;">
+  Although improvements in algorithms and modeling methods are especially important for the computational performance of statistical models, advances in parallel and GPU computing can also play a significant role in statistical computation. While working at the National Center for Atmospheric Research (NCAR), I helped write a version of the fields package linking to the MAGMA computational library called `fieldsMAGMA' in order to use GPUs to speed up the likelihood calculations. Code for fieldsMAGMA is available on <a href = "https://bitbucket.org/jpaige/rpackages/src/master/">Bitbucket</a>, and information about the package and its computational performance is available in two technical reports (<a href = "https://opensky.ucar.edu/islandora/object/technotes%3A531/datastream/PDF/view">1</a> <a href = "https://opensky.ucar.edu/islandora/object/technotes%3A532/datastream/PDF/view">2</a>).
+</p>
+<br/>
