@@ -9,11 +9,17 @@ title:  'Projects'
 <p class="lead"><small>
   I am interested in spatial and spatiotemporal methods and their applications, 
   and have a number of potential projects for interested Master's and 
-  Bacchelor's students, shown below. Please <a href = "https://paigejo.github.io/contact.html">contact me</a> if you are interested.
+  Bacchelor's students, some of which are shown in detail below. Please <a href = "https://paigejo.github.io/contact.html">contact me</a> if you are interested in these, or have other projects you 
+  would be interested in working on together. Potential topics include proper 
+  scoring rules for discrete outcomes, earthquake inverse modeling, Bayesian model 
+  averaging, exploring why and when traditional cross validation approaches fail 
+  in a spatial context and what methods may work better, penalized 
+  survey/design-based regression estimators, multivariate priors for spatial models, 
+  accounting for positional/locational error in spatial models, and potentially more.
   </small>
 </p>
 
-<h4 style="margin-top:0">Inferring Historical Magnitude 9 Earthquake Coseismic Slip Distributions Using Paleoseismic Evidence</h4>
+<h4 style="margin-top:0">Inferring Historical Magnitude 9 Earthquake Coseismic Slip Distributions Using Paleoseismic Evidence (Continuation)</h4>
 
 <img align = "center" src="images/lockingRates.png" alt="lockingRates" style="width:500px;">
 
@@ -23,11 +29,56 @@ The Cascadia Subduction Zone (CSZ) is a 1,000 km long fault off the west coast o
 </p>
 <br>
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
-This project will involve “inverse modeling” of earthquake spatial slip distributions using a combination of 1) existing Python code from R for a “forward model” that predicts subsidence given an input earthquake, and 2) a spatial model for CSZ earthquakes. The student would primarily be responsible for updating the forward model. Depending on time, the forward model will also need to be linked to the statistical earthquake model to assess the size and spatial distribution of past and future earthquakes, which could result in a paper in a peer reviewed journal. This project would be in collaboration with Professors <a href = "https://www.ntnu.no/ansatte/jo.eidsvik">Jo Eidsvik</a> at NTNU and <a href = "http://faculty.washington.edu/guttorp/peter.html">Peter Guttorp</a> at the University of Washington and Norwegian Computing Center.
+This project will involve continuing work from a previous Master's thesis, 
+and potentially collaborations with Seismologists and other Statisticians. It will certainly involve “inverse modeling” of earthquake spatial slip distributions using a combination of 1) existing Python code from R for a “forward model” that predicts subsidence given an input earthquake, and 2) a spatial model for CSZ earthquakes. The forward model is linked to the statistical earthquake model to assess the size and spatial distribution of past and future earthquakes, which could result in a paper in a peer reviewed journal depending on progress.
 </p>
 <br>
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
 A strong statistical background is required, along with strong programming experience in R and ideally some programming experience in Python as well. Some understanding of spatial statistics would be ideal, but not necessary.
+</p>
+<br/>
+
+<h4 style="margin-top:0">Cross validation in a spatial context</h4>
+
+<img align = "center" src="images/griddedBias_n50_niter50.pdf" alt="CVbias" style="width:500px;">
+
+<br><br>
+<p class="content" style="padding:0px;margin:0px 20px 0px;">
+How does one decide what models are better than others? Classically, one may use leave one out cross validation (LOOCV), leaving out one observation at a time and attempting to predict it. The average of these errors for each model can then be used to estimate their average predictive error, where the model with the smallest 
+predictive error is then considered the best. However, this form of 
+validation ignores spatial correlation in observation locations and in predictions, and often leads to 
+biased estimates of predictive error in the context of spatial datasets, potentially even leading to poor choices of models.
+</p>
+<br>
+<p class="content" style="padding:0px;margin:0px 20px 0px;">
+This project will involve exploring when LOOCV, among other traditional methods for validation, 
+including blocked cross validation, perform poorly in terms of both bias and MSE in the predictive error estimate, and in terms of model selection. Depending on progress, this project may result in a publication in a peer-reviewed journal.
+</p>
+<br>
+<p class="content" style="padding:0px;margin:0px 20px 0px;">
+A strong statistical background is required, along with strong programming experience in R. Some understanding of spatial statistics and/or survey statistics would be ideal, but not necessary.
+</p>
+<br/>
+
+<h4 style="margin-top:0">Accounting for positional error in spatial models</h4>
+
+<img align = "center" src="images/integrationMICSbyCluster.pdf" alt="intPts" style="width:500px;">
+
+<br><br>
+<p class="content" style="padding:0px;margin:0px 20px 0px;">
+Spatial models are models that account for the fact that nearby observations tend to be more similar (i.e. correlated) than ones that are far away. As the distance between observations increases, spatial models explicitely model how their correlation is accordingly reduced.
+</p>
+<br>
+<p class="content" style="padding:0px;margin:0px 20px 0px;">
+Traditional spatial models assume that the spatial point location of each observation is known exactly. However, the location may be unknown, such as when the location is deliberately censored or randomly adjusted for confidentiality purposes. This induces uncertainty in the spatial location (called 'positional' or 'locational' uncertianty). One technique for accounting for such uncertainty involves numerical integration of the likelihood over possible positions of the true location over a number of integration points. However, this technique could be improved by adaptive integration techniques for choosing a minimal number of integration points while maintaining accurate estimates.
+</p>
+<br>
+<p class="content" style="padding:0px;margin:0px 20px 0px;">
+The student would be responsible for updating code for the statistical model by allowing for a variable number of integration points for each observation, and evaluating the performance of a numerical integral via prespecified evaluation criteria. Depending on progress, this project may result in a publication in a peer-reviewed journal, or in code added to a publically available repository on CRAN.
+</p>
+<br>
+<p class="content" style="padding:0px;margin:0px 20px 0px;">
+A strong statistical background is required, along with strong programming experience in R. Some understanding of spatial statistics and and C++ would be ideal, but not necessary.
 </p>
 <br/>
 
