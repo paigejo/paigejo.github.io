@@ -22,7 +22,7 @@ title:  'Projects'
 
 <br><br>
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
-The Cascadia Subduction Zone (CSZ) is a 1,000 km long fault off the west coast of North America stretching from northern California in the US to Vancouver Island, Canada. The CSZ is capable of producing magnitude 9 earthquakes, but it has not experienced one since 1700. In order to assess risk due to future earthquakes, it is therefore necessary to use historic rather than modern evidence. One such source of evidence is estimates of paleoseismic subsidence along the coast, where carbon dated measurements of how much the ground sank as a result of past earthquakes can be used to infer how large the associated earthquakes were, and where along the coast risk from future earthquakes is highest.
+The Cascadia Subduction Zone (CSZ) is a 1,000 km long fault off the west coast of North America stretching from northern California in the US to Vancouver Island, Canada. The CSZ is capable of producing magnitude 9 earthquakes, but it has not experienced one since 1700. Historic evidence is therefore necessary to be able to assess risk due to future earthquakes. One such source of evidence is estimates of paleoseismic subsidence along the coast, where carbon dated measurements of how much the ground sank as a result of past earthquakes can be used to infer how large the associated earthquakes were, and where along the coast risk from future earthquakes is highest.
 </p>
 <br>
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
@@ -38,18 +38,15 @@ A strong statistical background is required, along with strong programming exper
 
 <h3 style="margin-top:0">Cross validation in a spatial context</h3>
 
-<img align = "center" src="images/griddedBias_n50_niter50.png" alt="CVbias" style="width:300px;">
+<img align = "center" src="images/griddedBias_n50_niter50.png" alt="CVbias" style="width:350px;">
 
 <br><br>
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
-How does one decide what models are better than others? Classically, one may use leave one out cross validation (LOOCV), leaving out one observation at a time and attempting to predict it. The average of these errors for each model can then be used to estimate their average predictive error, where the model with the smallest predictive error is then considered the best. However, this form of 
-validation ignores spatial correlation in observation locations and in predictions, and often leads to 
-biased estimates of predictive error in the context of spatial datasets, potentially even leading to poor choices of models.
+How does one decide what models are better than others? Classically, one may use leave one out cross validation (LOOCV), leaving out one observation at a time and calculating the squared error of the prediction. The average of these errors over each observation can then be used to estimate a model's average predictive error, and the model with the smallest predictive error is then considered the best. However, this form of validation ignores spatial correlation in observation locations and in predictions, and often leads to biased estimates of predictive error in the context of spatial datasets, potentially even leading to poor choices of models.
 </p>
 <br>
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
-This project will involve exploring when LOOCV, among other traditional methods for validation, 
-including blocked/gridded cross validation, perform poorly in terms of both bias and MSE in the predictive error estimate, and in terms of model selection. Depending on progress, this project could expand into an exploration of methods that may work well in contexts where LOOCV and block cross validation may fail. In addition, it may result in a publication in a peer-reviewed journal.
+This project will involve exploring when LOOCV, among other traditional methods for validation such as blocked/gridded cross validation, perform poorly in terms of both bias and MSE in the predictive error estimate, and in terms of model selection. Depending on progress, this project could expand into an exploration of methods that may work well in contexts where LOOCV and block cross validation may fail. In addition, it may result in a publication in a peer-reviewed journal.
 </p>
 <br>
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
@@ -60,19 +57,19 @@ A strong statistical background is required, along with strong programming exper
 
 <h3 style="margin-top:0">Accounting for positional error in spatial models: Local adaptation of numerical integration</h3>
 
-<img align = "center" src="images/integrationMICSbyCluster.png" alt="intPts" style="width:300px;">
+<img align = "center" src="images/integrationMICSbyCluster.png" alt="intPts" style="width:350px;">
 
 <br><br>
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
-Spatial models are models that account for the fact that nearby observations tend to be more similar (i.e. correlated) than ones that are far away. As the distance between observations increases, spatial models explicitely model how their correlation is accordingly reduced.
+Spatial models are statistical models that account for the fact that nearby observations tend to be more similar (i.e. correlated) than ones that are far away. As the distance between observations increases, spatial models explicitely model how their correlation is accordingly reduced.
 </p>
 <br>
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
-Traditional spatial models assume that the spatial point location of each observation is known exactly. However, the location may be unknown, such as when the location is deliberately censored or randomly adjusted for confidentiality purposes. This induces uncertainty in the spatial location (called 'positional' or 'locational' uncertianty). One technique for accounting for such uncertainty involves numerical integration of the likelihood over possible positions of the true location over a number of integration points. However, this technique could be improved by adaptive integration techniques for choosing a minimal number of integration points while maintaining accurate estimates.
+Traditional spatial models assume that the spatial point location of each observation is known exactly. However, the location may be unknown, such as when the location is deliberately censored or randomly adjusted for confidentiality purposes. This induces uncertainty in the spatial location (called 'positional' or 'locational' uncertianty), and may affect predictions. One technique for accounting for such uncertainty involves numerical integration of the likelihood over possible positions of the true location over a number of integration points. However, this technique could be improved by adapting the integration scheme for each observation, choosing a minimal number of integration points while maintaining accurate estimates.
 </p>
 <br>
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
-The student would be responsible for updating code for the statistical model by allowing for a variable number of integration points for each observation, and evaluating the performance of a numerical integral via prespecified evaluation criteria. Depending on progress, this project may result in a publication in a peer-reviewed journal, or in code added to a publically available repository on CRAN.
+The student would be responsible for updating code for the statistical model by allowing for a variable number of integration points for each observation, and evaluating the performance of a numerical integral via prespecified evaluation criteria. Depending on progress, this project may result in a publication in a peer-reviewed journal, or in your contribution to a publically available repository on CRAN.
 </p>
 <br>
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
@@ -86,6 +83,6 @@ A strong background in programming in R is required along with a strong statisti
 <br><br>
 
 <p class="content" style="padding:0px;margin:0px 20px 0px;">
-The above master's thesis and project topics are not all-inclusive. If you have a topic you are particularly interested in, you are welcome to ask me if I would be willing to supervise it. In addition, there are other ideas I have for topics you might be interested in, including topics related to proper scoring rules for discrete outcomes, Bayesian model averaging, penalized survey/design-based regression estimators, multivariate priors for spatial models, and potentially more. Again, if you are interested in any of these topics, topics listed above, or other topics you are interested in studying together, please <a href = "https://paigejo.github.io/contact.html">contact me</a>.
+The above thesis and project topics are not all-inclusive. If you have a topic you are particularly interested in, you are welcome to ask me if I would be willing to supervise it. In addition, there are other ideas I have for topics related to proper scoring rules for discrete outcomes, Bayesian model averaging, penalized survey/design-based regression estimators, multivariate priors for spatial models, Bayesian neural estimators, Bayesian deep GMRFs, and potentially more. Again, if you are interested in studying any of these topics, those listed above, or others, please <a href = "https://paigejo.github.io/contact.html">contact me</a>.
 </p>
 <br>
